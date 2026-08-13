@@ -9,22 +9,20 @@
 
 :root {
   --cream: #f5f0e6;
-  --cream-dark: #e8e0d0;
+  --cream-dark: #d8d0bf;
 
-  --ink: #171717;
-  --ink-soft: #55514a;
+  --ink: #111111;
+  --ink-soft: #333333;
 
-  --cobalt: #2457d6;
-  --cobalt-dark: #173d9d;
+  --cobalt: #1746b8;
+  --cobalt-dark: #0d328c;
 
-  --cherry: #b83a45;
-  --cherry-soft: #f1d7d8;
+  --cherry: #9f2635;
+  --cherry-soft: #ead0d2;
 
-  --line: #c9c0ad;
+  --line: #9f9685;
 
   --white: #fffdf7;
-
-  --max-width: 1180px;
 }
 
 
@@ -147,7 +145,7 @@ button {
 }
 
 .brand-project {
-  color: var(--ink-soft);
+ color: #333333;
 }
 
 .header-meta {
@@ -163,7 +161,7 @@ button {
 
   letter-spacing: 0.08em;
 
-  color: var(--ink-soft);
+  color: #333333;
 }
 
 .refresh-button {
@@ -293,7 +291,7 @@ button {
 
   line-height: 1.65;
 
-  color: var(--ink-soft);
+  color: #333333;
 }
 
 .hero-source {
@@ -322,7 +320,7 @@ button {
 
   letter-spacing: 0.12em;
 
-  color: var(--ink-soft);
+  color: #333333;
 }
 
 .hero-source strong {
@@ -354,11 +352,8 @@ button {
 
 .section-marker {
   display: flex;
-
   align-items: center;
-
   gap: 12px;
-
   margin-bottom: 48px;
 
   font-family:
@@ -366,16 +361,14 @@ button {
     monospace;
 
   font-size: 10px;
-
   font-weight: 600;
-
   letter-spacing: 0.12em;
 
-  color: var(--ink-soft);
+  color: #333333;
 }
 
 .section-marker > span:first-child {
-  color: var(--cobalt);
+  color: var(--cobalt-dark);
 }
 
 .marker-line {
@@ -442,7 +435,7 @@ button {
 
   line-height: 1.75;
 
-  color: var(--ink-soft);
+  color: #333333;
 }
 
 
@@ -529,7 +522,7 @@ button {
 
   line-height: 0.8;
 
-  color: var(--cream);
+  ccolor: #fffdf7;
 }
 
 .gap-arrow {
@@ -644,7 +637,7 @@ button {
 
   letter-spacing: 0.1em;
 
-  color: var(--ink-soft);
+  color: #333333;
 }
 
 .comparison-note strong {
@@ -697,7 +690,12 @@ button {
 .bar-track {
   height: 22px;
 
-  background: var(--cream-dark);
+  background: #c4bba9;
+
+  position: relative;
+
+  overflow: hidden;
+}
 
   position: relative;
 
@@ -840,7 +838,7 @@ button {
 
   margin: 0;
 
-  color: var(--ink-soft);
+  color: #333333;
 
   font-size: 14px;
 
@@ -884,7 +882,7 @@ button {
 .table-intro p {
   margin-top: 12px;
 
-  color: var(--ink-soft);
+ color: #333333;
 
   font-size: 14px;
 }
@@ -926,7 +924,7 @@ button {
 
   line-height: 1.7;
 
-  color: var(--ink-soft);
+  color: #333333;
 }
 
 
@@ -961,7 +959,7 @@ button {
 
   letter-spacing: 0.08em;
 
-  color: var(--ink-soft);
+  color: #333333;
 }
 
 .footer-left {
