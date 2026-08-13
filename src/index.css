@@ -697,11 +697,6 @@ button {
   overflow: hidden;
 }
 
-  position: relative;
-
-  overflow: hidden;
-}
-
 .bar-fill {
   position: absolute;
 
